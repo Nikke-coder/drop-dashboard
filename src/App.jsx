@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase, CLIENT } from './supabase.js'
+
 import {
   ComposedChart, BarChart, Bar, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend,
@@ -381,7 +381,7 @@ function Login({ onSuccess }) {
     <div style={{ minHeight:'100vh', background:'#080b12', display:'flex', alignItems:'center', justifyContent:'center', fontFamily:"'DM Mono','Courier New',monospace" }}>
       <div style={{ width:340, textAlign:'center' }}>
         <div style={{ fontSize:11, letterSpacing:'0.3em', color:'#334155', marginBottom:12, textTransform:'uppercase' }}>Board Dashboard</div>
-        <div style={{ fontSize:32, fontWeight:800, letterSpacing:'-0.03em', color:'#f1f5f9', marginBottom:4 }}>Drop Pool</div>
+        <div style={{ fontSize:32, fontWeight:800, letterSpacing:'-0.03em', color:'#f1f5f9', marginBottom:4 }}>Drop Design Pool</div>
         <div style={{ width:40, height:2, background:ACCENT, margin:'0 auto 32px' }}/>
         <input
           type="password" placeholder="Enter password" value={pw}
@@ -453,7 +453,7 @@ export default function App() {
     <div style={{ minHeight:'100vh', background:'#080b12', color:'#e2e8f0', fontFamily:"'DM Mono','Courier New',monospace" }}>
       <header style={{ borderBottom:'1px solid rgba(255,255,255,0.05)', padding:'0 28px', display:'flex', alignItems:'center', justifyContent:'space-between', height:52, position:'sticky', top:0, zIndex:100, background:'rgba(8,11,18,0.97)' }}>
         <div style={{ display:'flex', alignItems:'center', gap:12 }}>
-          <div style={{ fontSize:16, fontWeight:800, letterSpacing:'-0.02em', color:'#f1f5f9' }}>Drop Pool</div>
+          <div style={{ fontSize:16, fontWeight:800, letterSpacing:'-0.02em', color:'#f1f5f9' }}>Drop Design Pool</div>
           <div style={{ width:1, height:16, background:'rgba(255,255,255,0.08)' }}/>
           <div style={{ fontSize:11, color:'#334155', letterSpacing:'0.05em' }}>Board Dashboard</div>
         </div>
@@ -478,7 +478,7 @@ export default function App() {
       </main>
 
       <div style={{ textAlign:'center', padding:'18px', borderTop:'1px solid rgba(255,255,255,0.04)', fontSize:11, color:'#1e293b' }}>
-        Drop Pool · Board Dashboard · Confidential · {new Date().getFullYear()}
+        Drop Design Pool · Board Dashboard · Confidential · {new Date().getFullYear()}
       </div>
     </div>
   )
