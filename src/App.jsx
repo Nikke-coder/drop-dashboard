@@ -32,7 +32,7 @@ const PASSWORD      = 'droppool2026!';
 const SESSION_KEY   = 'droppool_auth';
 const ACCENT        = '#38bdf8';
 const CLIENT_NAME   = 'Drop Design Pool Oy';
-const ALLOWED_EMAILS = ['christine@drop.fi'];
+const ALLOWED_EMAILS = ['christine@drop.fi', "niklas.isaksson@targetflow.fi"];
 
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const BLUE="#3b82f6",GREEN="#22c55e",AMBER="#f59e0b",RED="#f87171",PURPLE="#a78bfa",CYAN="#06b6d4",SLATE="#64748b";
